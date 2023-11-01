@@ -1,10 +1,10 @@
 // src/test/java/com/example/MyTest.java
 
-package com.example;
+package guru99.gittest;
 
 import org.testng.annotations.Test;
 
-public class MyTest {
+public class AppTest2 {
     @Test
     public void testExample() {
         System.out.println("This is a sample test.");
