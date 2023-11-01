@@ -1,26 +1,12 @@
-package guru99.gittest;
+// src/test/java/com/example/MyTest.java
 
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+package com.example;
 
-public class AppTest {
-	
-	protected WebDriver driver;
-	@Test
-	public void guru99tutorials() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-		
-		String eTitle = "Meet Guru99";
-		String aTitle = "";
-		driver.get("http://www.guru99.com/");
-		driver.manage().window().maximize();
-		aTitle = driver.getTitle();
-		if(aTitle.contentEquals(eTitle)) {
-			System.out.println("Test Passed");
-		}
-		else
-			System.out.println("Test Failed");
-	}
+import org.testng.annotations.Test;
 
+public class MyTest {
+    @Test
+    public void testExample() {
+        System.out.println("This is a sample test.");
+    }
 }
