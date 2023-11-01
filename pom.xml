@@ -13,7 +13,7 @@
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>7.8.0</version>
-      <compile>test</compile>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
